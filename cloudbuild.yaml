@@ -1,6 +1,6 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/emontoya-mlops/mlops-ejemplo1', '.']
+  args: ['build', '-t', 'gcr.io/dpinedav-mlops/mlops-ejemplo1', '.']
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'gcr.io/emontoya-mlops/mlops-ejemplo1']
 - name: 'gcr.io/cloud-builders/gcloud'
